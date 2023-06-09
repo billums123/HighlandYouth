@@ -16,15 +16,7 @@ const router = createHashRouter([
 ]);
 
 function App() {
-  return (
-    <RouterProvider router={router} />
-    // <HashRouter basename={"/HighlandYouth/"}>
-    //   <Routes>
-    //     <Route index element={<Dashboard />} />
-    //     <Route path="/login" element={<Login />} />
-    //   </Routes>
-    // </HashRouter>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
